@@ -10,6 +10,7 @@ from mlxtend.plotting import plot_sequential_feature_selection as plot_sfs
 import numpy as np
 import scipy.linalg as la
 import pywt
+import numpy 
 
 
 def sequential_feature_selector(features, labels, classifier, k_features, kfold, selection_type, plot=True, **kwargs):
